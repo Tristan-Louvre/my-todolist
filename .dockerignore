@@ -1,0 +1,5 @@
+# Ignore .git and npm/yarn dependency files.
+.git
+.idea
+node_modules
+.gitignore

@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  my_todolist_service:
+    build:
+      context: .
+    image: "my-todolist-service:0.1.0"
+    ports:
+      - 8080:8080
+    restart: always
