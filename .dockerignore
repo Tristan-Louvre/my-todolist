@@ -1,5 +1,7 @@
 # Ignore .git and npm/yarn dependency files.
 .git
-.idea
-node_modules
 .gitignore
+.idea
+.nyc_output
+coverage
+node_modules

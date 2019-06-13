@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-todolist-service-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-todolist
+  template:
+    metadata:
+      labels:
+        app: my-todolist
+    spec:
+      containers:
+      - name: my-todolist
+        image: tristanjones/my-todolist-service:0.1.0
+        ports:
+        - containerPort: 8000
