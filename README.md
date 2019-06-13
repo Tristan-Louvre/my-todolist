@@ -56,6 +56,7 @@ Visit http://localhost:8080 in your browser
 * State management with multiple clients, using most likely Redux.
 * Data persistence in a mongodb data store.
 * Flesh out api validation.
+* Flesh out the test cases more.
 
 ---
 
@@ -64,9 +65,13 @@ In order to run the application for local development type:
 
 ```npm run dev```
 
-In order to run the unit tess type:
+In order to run the unit tests type:
 
 ```npm test```
+
+Do note that the output of these tests is an HTML coverage report that can be found in 
+
+`/coverage/index.html`
 
 ---
 
